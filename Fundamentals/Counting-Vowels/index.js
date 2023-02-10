@@ -3,7 +3,7 @@ function countVowels(str) {
     // Return the number of vowels, or 0 if none are found.
     // Note: watch out for case sensitivity!
 
-    return str;
+    return null;
 }
 
 module.exports = countVowels;

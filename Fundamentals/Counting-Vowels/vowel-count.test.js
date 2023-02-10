@@ -1,5 +1,9 @@
 const countVowels = require("./index");
 
+test("countVowels returns a numerical value", () => {
+    expect(typeof countVowels("Some string") === "number").toBe(true);
+});
+
 test('"Somebody once told me the world was gonna roll me" should find 14 vowels.', () => {
     expect(countVowels("Somebody once told me the world was gonna roll me")).toEqual(14);
 });

@@ -1,8 +1,21 @@
 # Challenges
 
+[Capitalize Words](./Capitalize-Words/index.js) You will be given a string of multiple fully-lowercased words, and you must return a string with the first letter of each word capitalized.
+
+-   Ex: If you are given the string `"lorem ipsum dolor sit amet"`, you must return `"Lorem Ipsum Dolor Sit Amet"`
+
+[Counting Occurences](./Counting-Occurences/index.js) You will be given a string, and must return an object with a breakdown of the frequency each letter was used. You may be more familiar with this structure when called a histogram.
+
+-   Ex: If you are given the string `"gabagool"`, you will return an object `{ g: 2, a: 2, b: 1, o: 2, l: 1 }`
+
 [Counting Vowels](./Counting-Vowels/index.js) You will be given a string, and must count the occurrences of vowels within that string.
 
-[Sum Pairs](./Finding-Sum-Pair/index.js) You will be given an array of positive integers only, and a target number. You must find out if a combination of any two numbers alone sum up to the target number.
+[Fibonacci Series](./Fibonacci/index.js) The Fibonacci series is an infinite series where each number is the sum of the previous two numbers. The first two numbers in the series are a given 0 and 1. You are given an integer argument of which digit in the series to calculate to, and must return an array of the numbers.
+
+-   Ex: If you are given `5` as your argument, you must calculate the first 5 digits of the series (with 0 and 1 as the first two), and would end up returning `[0, 1, 1, 2, 3]
+-   If you were given `9`, you would return `[0, 1, 1, 2, 3, 5, 8, 13, 21]`
+
+[Finding Sum Pairs](./Finding-Sum-Pair/index.js) You will be given an array of positive integers only, and a target number. You must find out if a combination of any two numbers alone sum up to the target number.
 
 -   With an array of `[1, 2, 4]` and a target number of `6`, you would return `true` since 2+4=6
 -   With an array of `[1, 2, 4]` and a target number of `7`, you would return `false` since no combination of two numbers matches the target

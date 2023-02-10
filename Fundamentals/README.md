@@ -1,5 +1,12 @@
 # Challenges
 
+[Counting Vowels](./Counting-Vowels/index.js) You will be given a string, and must count the occurrences of vowels within that string.
+
+[Sum Pairs](./Finding-Sum-Pair/index.js) You will be given an array of positive integers only, and a target number. You must find out if a combination of any two numbers alone sum up to the target number.
+
+-   With an array of `[1, 2, 4]` and a target number of `6`, you would return `true` since 2+4=6
+-   With an array of `[1, 2, 4]` and a target number of `7`, you would return `false` since no combination of two numbers matches the target
+
 [FizzBuzz](./FizzBuzz/index.js) You will be given an argument for a stopNum variable. You will create a for loop iterating from 1 to the stopNum, including the stopNum. You will be returning an array of integers and strings.
 
 -   If the number is evenly divisble by 2, push "Cake" into the array.

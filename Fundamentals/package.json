@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "tests": "jest --verbose"
+        "test": "jest --verbose"
     },
     "author": "",
     "license": "ISC",

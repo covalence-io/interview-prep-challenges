@@ -1,5 +1,20 @@
 # Challenges
 
+[Best Restaurant](./Best-Restaurant/index.js) You are given an array of objects describing some restaurants.
+
+-   Each restaurant has a ratings array with reviews on a scale of 1 to 5.
+-   Find the restaurant with the best average review score who has at least 5 ratings
+-   Return _just the name_ of the best restaurant
+-   Ex: given the below array, you would return the string "Orange Joe's Slurmeria" since it has the highest average score for restaurants with more than 5 total ratings
+
+```js
+[
+    { name: "Stinky Pete's Pizzeria", ratings: [1, 1.3, 2, 1, 1.5, 2] },
+    { name: "Orange Joe's Slurmeria", ratings: [2, 4, 3, 2, 2.5, 2.5] },
+    { name: "The Courier's Cantina", ratings: [4, 3, 5] }
+];
+```
+
 [Capitalize Words](./Capitalize-Words/index.js) You will be given a string of multiple fully-lowercased words, and you must return a string with the first letter of each word capitalized.
 
 -   Ex: If you are given the string `"lorem ipsum dolor sit amet"`, you must return `"Lorem Ipsum Dolor Sit Amet"`
@@ -29,6 +44,10 @@
 -   `[1, "Cake", 3, "Cake", "Pie", "Cake", 7, "Cake", 9, "CakeAndPie"]`
 
 [Is-Palindrome](./Is-Palindrome/index.js) will have you take a string, and see if the string is the same reversed as it is normally, returning `true` or `false`.
+
+[Mirror-Case](./Mirror-Case/index.js) You will be given a string with mixed uppercase and lowercase letters, and you must return a string where all of the casing is flipped around
+
+-   Example: given an input of "HeLLo wOrLD", you would return `"hEllO WoRld"`
 
 [Reverse-String](./Reverse-String/index.js) will give you a string, and have you return the reversed value.
 

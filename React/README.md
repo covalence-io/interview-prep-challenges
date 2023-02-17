@@ -1,6 +1,6 @@
 # Challenges
 
-[Rearranging-Items](./Rearranging-Items/README.md)
+[Rearranging-Items](./rearranging-items/README.md)
 
 -   You are given some JSON data of an array of albums. You must:
     -   Look at the data and create an interface describing its structure
@@ -11,7 +11,7 @@
         -   If it is the **last** element in the list, you should **only** show the **up** button.
     -   Clicking on those buttons must rearrange the element's position in the array
 
-[Lifting-State-Up](./Lifting-State-Up/README.md)
+[Lifting-State-Up](./lifting-state-up/README.md)
 
 -   You are given a `Button.tsx` and a `DisplayText.tsx` component that are both sibling elements within `App.tsx`.
 -   You must find a way to have state globally shared between them. `DisplayText` must show the count, and `Button` must update it.

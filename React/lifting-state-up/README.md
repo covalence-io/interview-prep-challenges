@@ -1,3 +1,5 @@
+# Lifting state up to share between components
+
 -   Step 0:
 
     -   Run `npm install` to download all of your packages, and run `npm test` to validate the returned elements.

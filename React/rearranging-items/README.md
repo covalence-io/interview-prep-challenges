@@ -1,4 +1,4 @@
-# Fetching data in React+Typescript, and rearranging elements
+# Rearranging Elements in an Array with React+Typescript
 
 -   Step 0:
 

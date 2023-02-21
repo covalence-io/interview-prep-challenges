@@ -25,6 +25,16 @@
 
 [Counting Vowels](./Counting-Vowels/index.js) You will be given a string, and must count the occurrences of vowels within that string.
 
+[Decoder Ring](./Decoder-Ring/index.js) (Intermediate) You will be given a string full of unicode characters with similar-appearances (called homoglyphs) to the latin alphabet, and an object with listings of all the possible substitutions. You must return the string with any character substitutions reversed!
+
+-   Ex. `decoderRing("ýöú wȯո!")` returns `"you won!"`
+-   Ex. `decoderRing("frẹė ġíνẹąwáу")` returns `"free giveaway"`
+
+[Encoder Ring](./Encoder-Ring/index.js) (Intermediate) With the opposite intent of the previous challenge, you will be given a plain string and the object of homoglyph substitutions, and you must return a string where characters with available substitutes have a random substitute selected.
+
+-   Ex. `encoderRing("click here!")` returns `"ƈḷìċκ һėré!!"`
+-   Ex. `encoderRing("verify your account")` returns `"νẹrìfý ýòùr áċċȯüոt!"`
+
 [Fibonacci Series](./Fibonacci/index.js) The Fibonacci series is an infinite series where each number is the sum of the previous two numbers. The first two numbers in the series are a given 0 and 1. You are given an integer argument of which digit in the series to calculate to, and must return an array of the numbers.
 
 -   Ex: If you are given `5` as your argument, you must calculate the first 5 digits of the series (with 0 and 1 as the first two), and would end up returning `[0, 1, 1, 2, 3]

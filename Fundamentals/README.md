@@ -1,5 +1,9 @@
 # Challenges
 
+[Array Functions](./Array-Functions/README.md)
+
+This is a directory with multiple challenges requiring you to recreate some ES5 & ES6 array methods with just a standard `for` loop. Directions for each challenge is available at the above README link.
+
 [Best Restaurant](./Best-Restaurant/index.js) You are given an array of objects describing some restaurants.
 
 -   Each restaurant has a ratings array with reviews on a scale of 1 to 5.
@@ -11,7 +15,7 @@
 [
     { name: "Stinky Pete's Pizzeria", ratings: [1, 1.3, 2, 1, 1.5, 2] },
     { name: "Orange Joe's Slurmeria", ratings: [2, 4, 3, 2, 2.5, 2.5] },
-    { name: "The Courier's Cantina", ratings: [4, 3, 5] }
+    { name: "The Courier's Cantina", ratings: [4, 3, 5] },
 ];
 ```
 
